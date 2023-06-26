@@ -8,81 +8,56 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav flex-column">
                     <li class="nav-divider">
-                        Menu
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Dashboard <span class="badge badge-success">6</span></a>
-                        <div id="submenu-1" class="collapse submenu" style="">
-                            <ul class="nav flex-column">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">E-Commerce</a>
-                                    <div id="submenu-1-2" class="collapse submenu" style="">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="../index.html">E Commerce Dashboard</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="../ecommerce-product.html">Product List</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="../ecommerce-product-single.html">Product Single</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="../ecommerce-product-checkout.html">Product Checkout</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../dashboard-finance.html">Finance</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../dashboard-sales.html">Sales</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Infulencer</a>
-                                    <div id="submenu-1-1" class="collapse submenu" style="">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="../dashboard-influencer.html">Influencer</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="../influencer-finder.html">Influencer Finder</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="../influencer-profile.html">Influencer Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                    
                     </li>
                     <li class="nav-divider">
-                        Features
+                       
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-f fa-folder"></i>Menu Level</a>
+                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-f fa-folder"></i>Mod tin tức</a>
                         <div id="submenu-10" class="collapse submenu" style="">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Level 1</a>
+                                    <a class="nav-link" href="#"></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-11" aria-controls="submenu-11">Level 2</a>
-                                    <div id="submenu-11" class="collapse submenu" style="">
+                                    <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-13" aria-controls="submenu-13">Quản lý danh mục</a>
+                                    <div id="submenu-13" class="collapse submenu" style="">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Level 1</a>
+                                                <a class="nav-link" href="{{asset('/dashboard/post-category/')}}">Danh sách danh mục</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Level 2</a>
+                                                <a class="nav-link" href="{{asset('/dashboard/post-category/create')}}">Thêm danh mục</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Level 3</a>
+                                    <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-11" aria-controls="submenu-11">Quản lý tin tức</a>
+                                    <div id="submenu-11" class="collapse submenu" style="">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{asset('/dashboard/post-news/')}}">Danh sách bài viết</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{asset('/dashboard/post-news/create')}}">Thêm bài viết</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-12" aria-controls="submenu-12">Quản lý thẻ</a>
+                                    <div id="submenu-12" class="collapse submenu" style="">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{asset('/dashboard/post-tags/')}}">Danh sách thẻ</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{asset('/dashboard/post-tags/')}}">Thêm thẻ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
